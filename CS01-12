@@ -1,0 +1,4 @@
+
+data = ["Phatcharaphan","Jarusawadi","38446"]
+for n in data:
+    print(n)
