@@ -1,0 +1,8 @@
+
+
+    
+
+score=int(input())
+while score != -1:
+    print(score)
+    score=int(input())
