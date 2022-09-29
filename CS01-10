@@ -1,6 +1,7 @@
 
 pet = ["Cat","Dog","Bird","Cat","Bird","Dog"]
 for i in pet:
-  print(i)
-  if i == "Cat":
-    break
+    print(i)
+    if i == "Cat":
+        print("Cat")
+        break
