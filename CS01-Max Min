@@ -1,12 +1,12 @@
-N = int(input('Enter your loop'))
+N = int(input("input number"))
 ntotal = []
 print('Enter yout Data:')
 for i in range(N):
-    data =int(input(''))
+    data =int(input(""))
     ntotal += [data]
-print(ntotal,end='')
+print(ntotal,end=" ")
 ntotal.sort()
-print("--->",end='')
+print("--->",end=" ")
 print(ntotal)
 print("Max -->",ntotal[0])
 print("Max -->",ntotal[-1])
